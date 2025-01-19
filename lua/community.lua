@@ -70,5 +70,6 @@ return {
     },
   },
   { import = "astrocommunity.recipes.cache-colorscheme" },
+  { import = "astrocommunity.scrolling.nvim-scrollbar" },
   -- import/override with your plugins folder
 }
