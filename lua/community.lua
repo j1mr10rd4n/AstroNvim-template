@@ -55,6 +55,20 @@ return {
   { import = "astrocommunity.colorscheme.vim-moonfly-colors" },
   { import = "astrocommunity.colorscheme.vim-nightfly-colors" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
+  { import = "astrocommunity.pack.clojure" },
+  {
+    --
+    "AstroNvim/astrocore",
+    opts = {
+      options = {
+        g = {
+          -- example customising the clojure pack
+          -- Set Test runner: "clojure", "clojurescript", "kaocha"
+          -- ["conjure#client#clojure#nrepl#test#runner"] = "kaocha",
+        },
+      },
+    },
+  },
   { import = "astrocommunity.recipes.cache-colorscheme" },
   -- import/override with your plugins folder
 }
