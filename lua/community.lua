@@ -56,6 +56,7 @@ return {
   { import = "astrocommunity.colorscheme.vim-nightfly-colors" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.pack.clojure" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
   {
     --
     "AstroNvim/astrocore",
