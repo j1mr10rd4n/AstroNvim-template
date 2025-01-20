@@ -59,6 +59,7 @@ return {
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.yaml" },
   {
     --
     "AstroNvim/astrocore",
