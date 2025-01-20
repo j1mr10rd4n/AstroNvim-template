@@ -55,6 +55,7 @@ return {
   { import = "astrocommunity.colorscheme.vim-moonfly-colors" },
   { import = "astrocommunity.colorscheme.vim-nightfly-colors" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.terraform" },
