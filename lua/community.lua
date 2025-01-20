@@ -57,6 +57,7 @@ return {
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
   {
     --
