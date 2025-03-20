@@ -30,6 +30,7 @@ return {
         spell = true, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = true, -- sets vim.opt.wrap
+        guifont = "CaskaydiaCove Nerd Font:h13", -- neovide font family & size
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
