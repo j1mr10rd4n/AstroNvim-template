@@ -25,7 +25,7 @@ require("lazy").setup({
         "netrwPlugin",
         "tarPlugin",
         "tohtml",
-        "zipPlugin",
+        -- "zipPlugin", -- zipPlugin enabled to support Clojure LSP jar analysis
       },
     },
   },
