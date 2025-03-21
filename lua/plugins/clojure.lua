@@ -1,9 +1,10 @@
 -- ------------------------------------------
 -- Clojure Development support - overrides & extra config
 --
--- community.lua includes the AstroCommunity Clojure Pack
+-- plugins & configuration
+-- comment plugins not required
 --
--- Override or add Clojure releated plugins & configuration here
+-- NOTE: disable AstroCommunity Clojure Pack in `community.lua`
 -- ------------------------------------------
 
 -- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
@@ -80,6 +81,19 @@ return {
         options = {
           g = {},
         },
+        mappings = {
+          n = {
+            -- normal mode key bindings
+            -- setting a mapping to false will disable it
+            -- ["<esc>"] = false,
+          },
+          t = {
+            -- terminal? mode key bindings
+          },
+          v = {
+            -- visual mode key bindings
+          },
+        },
       },
     },
   },
@@ -95,10 +109,25 @@ return {
         options = {
           g = {},
         },
+        mappings = {
+          n = {
+            -- normal mode key bindings
+            -- setting a mapping to false will disable it
+            -- ["<esc>"] = false,
+          },
+          t = {
+            -- terminal? mode key bindings
+          },
+          v = {
+            -- visual mode key bindings
+          },
+        },
       },
     },
   },
   -- Treesitter structural editing
+  -- - package provides normal mode key mappings
+  -- - this config adds which-key mappings
   {
     "PaterJason/nvim-treesitter-sexp",
     filetype = lisp_dialects,
