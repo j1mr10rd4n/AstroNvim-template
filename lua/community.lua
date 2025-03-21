@@ -14,5 +14,6 @@ return {
   { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.search.nvim-spectre" },
+  { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
