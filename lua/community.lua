@@ -7,6 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.color.ccc-nvim" },
   { import = "astrocommunity.colorscheme.everforest" },
+  { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
