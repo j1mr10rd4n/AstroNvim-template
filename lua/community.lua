@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.editing-support.vim-visual-multi" },
+  { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.git.octo-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
