@@ -13,7 +13,7 @@ return {
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.git.octo-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
-  -- { import = "astrocommunity.pack.clojure" },
+  { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.utility.noice-nvim" },
