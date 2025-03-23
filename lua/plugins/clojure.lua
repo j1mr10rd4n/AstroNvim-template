@@ -80,7 +80,7 @@ return {
         },
         keys = {
           -- Toggle Parinfer on/off (globally)
-          { "<leader>TP", "<cmd>ParinferOn! <cr>", desc = "Toggle Parinfer" },
+          { "<Leader>TP", "<cmd>ParinferOn! <cr>", desc = "Toggle Parinfer" },
         },
       },
     },
@@ -193,20 +193,20 @@ return {
         mappings = {
           n = {
             -- Additional Which-key key bindings for nvim-treesitter-sexp
-            ["<leader>k"] = { name = "Structural Editing" },
-            ["<leader>kE"] = { "<cmd>TSSexp swap_prev_elem<cr>", desc = "Swap Previous Element" },
-            ["<leader>ke"] = { "<cmd>TSSexp swap_next_elem<cr>", desc = "Swap Previous Element" },
-            ["<leader>kF"] = { "<cmd>TSSexp swap_prev_form<cr>", desc = "Swap Previous Form" },
-            ["<leader>kf"] = { "<cmd>TSSexp swap_next_form<cr>", desc = "Swap Previous Form" },
-            ["<leader>kk"] = { "<cmd>TSSexp promote_elem<cr>", desc = "Promote Element" },
-            ["<leader>kr"] = { "<cmd>TSSexp promote_form<cr>", desc = "Promote Form" },
-            ["<leader>k@"] = { "<cmd>TSSexp splice<cr>", desc = "Splice" },
-            ["<leader>kS"] = { "<cmd>TSSexp slurp_left<cr>", desc = "Slurp Left" },
-            ["<leader>ks"] = { "<cmd>TSSexp slurp_right<cr>", desc = "Slurp Right" },
-            ["<leader>kB"] = { "<cmd>TSSexp barf_left<cr>", desc = "Barf Left" },
-            ["<leader>kb"] = { "<cmd>TSSexp barf_right<cr>", desc = "Barf Right" },
-            ["<leader>kI"] = { "<cmd>TSSexp barf_right<cr>", desc = "Insert Head" },
-            ["<leader>ki"] = { "<cmd>TSSexp barf_right<cr>", desc = "Insert Tail" },
+            ["<Leader>k"] = { name = "Structural Editing" },
+            ["<Leader>kE"] = { "<cmd>TSSexp swap_prev_elem<cr>", desc = "Swap Previous Element" },
+            ["<Leader>ke"] = { "<cmd>TSSexp swap_next_elem<cr>", desc = "Swap Previous Element" },
+            ["<Leader>kF"] = { "<cmd>TSSexp swap_prev_form<cr>", desc = "Swap Previous Form" },
+            ["<Leader>kf"] = { "<cmd>TSSexp swap_next_form<cr>", desc = "Swap Previous Form" },
+            ["<Leader>kk"] = { "<cmd>TSSexp promote_elem<cr>", desc = "Promote Element" },
+            ["<Leader>kr"] = { "<cmd>TSSexp promote_form<cr>", desc = "Promote Form" },
+            ["<Leader>k@"] = { "<cmd>TSSexp splice<cr>", desc = "Splice" },
+            ["<Leader>kS"] = { "<cmd>TSSexp slurp_left<cr>", desc = "Slurp Left" },
+            ["<Leader>ks"] = { "<cmd>TSSexp slurp_right<cr>", desc = "Slurp Right" },
+            ["<Leader>kB"] = { "<cmd>TSSexp barf_left<cr>", desc = "Barf Left" },
+            ["<Leader>kb"] = { "<cmd>TSSexp barf_right<cr>", desc = "Barf Right" },
+            ["<Leader>kI"] = { "<cmd>TSSexp barf_right<cr>", desc = "Insert Head" },
+            ["<Leader>ki"] = { "<cmd>TSSexp barf_right<cr>", desc = "Insert Tail" },
           },
           t = {
             -- terminal? mode key bindings

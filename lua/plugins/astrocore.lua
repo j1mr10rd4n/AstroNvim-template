@@ -54,7 +54,7 @@ return {
         -- ["<esc>"] = false,
 
         -- Toggle last open buffer
-        ["<leader><tab>"] = { "<cmd>b#<cr>", desc = "Last tab" },
+        ["<Leader><tab>"] = { "<cmd>b#<cr>", desc = "Last tab" },
 
         -- navigate buffer tabs
         ["]b"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
@@ -72,31 +72,31 @@ return {
           desc = "Close buffer from tabline",
         },
 
-        ["<leader>b"] = { name = "Buffers" },
-        ["<leader>bt"] = { name = "Tabs" },
-        ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
-        ["<leader>btn"] = { "<cmd>tabNext<cr>", desc = "Next tab" },
-        ["<leader>bt<tab>"] = { "<cmd>tabprevious<cr>", desc = "Previous tab" },
-        -- ["<leader>bD"] = { "<cmd>Bdelete<cr>", desc = "Delete buffer" },
+        ["<Leader>b"] = { name = "Buffers" },
+        ["<Leader>bt"] = { name = "Tabs" },
+        ["<Leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
+        ["<Leader>btn"] = { "<cmd>tabNext<cr>", desc = "Next tab" },
+        ["<Leader>bt<tab>"] = { "<cmd>tabprevious<cr>", desc = "Previous tab" },
+        -- ["<Leader>bD"] = { "<cmd>Bdelete<cr>", desc = "Delete buffer" },
 
         -- Save prompting for file name
-        ["<leader>W"] = { ":write ", desc = "Save as file" },
+        ["<Leader>W"] = { ":write ", desc = "Save as file" },
 
         -- Find Menu
         -- browse via directory structure, create and modify paths
-        ["<leader>fe"] = { "<cmd>Telescope file_browser<cr>", desc = "Explorer" },
+        ["<Leader>fe"] = { "<cmd>Telescope file_browser<cr>", desc = "Explorer" },
 
         -- Projects
-        ["<leader>fp"] = { "<cmd>Telescope projects<cr>", desc = "Projects" },
+        ["<Leader>fp"] = { "<cmd>Telescope projects<cr>", desc = "Projects" },
 
         -- Editing
         ["zZ"] = { "<cmd>ZenMode<cr>", desc = " Zen mode" },
 
         -- Git Menu
         -- Menu mappings
-        ["<leader>gh"] = false, -- disable Reset Git Hunk mapping, used for Octo in plugins/github.lua
-        ["<leader>gH"] = { function() require("gitsigns").stage_hunk() end, desc = "Stage Git hunk" },
-        ["<leader>gn"] = { name = " Neogit" }, -- Neogit menu with alternate logo
+        ["<Leader>gh"] = false, -- disable Reset Git Hunk mapping, used for Octo in plugins/github.lua
+        ["<Leader>gH"] = { function() require("gitsigns").stage_hunk() end, desc = "Stage Git hunk" },
+        ["<Leader>gn"] = { name = " Neogit" }, -- Neogit menu with alternate logo
       },
       t = {
         -- terminal? mode key bindings

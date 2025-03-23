@@ -17,6 +17,6 @@ return {
   },
   keys = {
     -- Neogit status - overrides stage hunk astronvim mapping
-    { "<leader>gs", "<cmd>Neogit<cr>", desc = "Status (Neogit)" },
+    { "<Leader>gs", "<cmd>Neogit<cr>", desc = "Status (Neogit)" },
   },
 }
