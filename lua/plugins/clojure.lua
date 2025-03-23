@@ -251,15 +251,15 @@ return {
             ["conjure#extract#context_header_lines"] = 100,
             ["conjure#eval#comment_prefix"] = ";; ",
             -- Start "auto-repl" process when nREPL connection not found, e.g. babashka. ;; Default: `true`
-            ["conjure#client#clojure#nrepl#connection#auto_repl#enabled"] = false,
+            ["conjure#client#clojure#nrepl#connection#auto_repl#enabled"] = true,
             -- Hide auto-repl buffer when triggered. Default: `false`
-            ["conjure#client#clojure#nrepl#connection#auto_repl#hidden"] = true,
+            ["conjure#client#clojure#nrepl#connection#auto_repl#hidden"] = false,
             -- Command to start the auto-repl. Default: `"bb nrepl-server localhost:8794"`
-            ["conjure#client#clojure#nrepl#connection#auto_repl#cmd"] = nil,
+            -- ["conjure#client#clojure#nrepl#connection#auto_repl#cmd"] = nil,
             -- Ensure namespace required after REPL connection. Default: `true`
             ["conjure#client#clojure#nrepl#eval#auto_require"] = false,
             -- suppress `; (out)` prefix in log evaluation results
-            ["conjure#client#clojure#nrepl#eval#raw_out"] = true,
+            ["conjure#client#clojure#nrepl#eval#raw_out"] = false,
             -- test runner "clojure" (clojure.test) "clojurescript" (cljs.test) "kaocha"
             ["conjure#client#clojure#nrepl#test#runner"] = "clojure",
           },
