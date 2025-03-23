@@ -19,5 +19,6 @@ return {
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
   -- import/override with your plugins folder
 }
