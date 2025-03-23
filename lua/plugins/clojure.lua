@@ -25,6 +25,8 @@ wk.add {
   { "<LocalLeader>t", group = "Test" },
   { "<LocalLeader>v", group = "Values" },
   { "<LocalLeader>x", group = "Expand" },
+  { "<LocalLeader>p", group = "Paredit" },
+  { "<localleader>pt", "<cmd>ParinferToggle<cr>", desc = "Toggle", mode = "n" },
 }
 
 ---@type LazySpec
