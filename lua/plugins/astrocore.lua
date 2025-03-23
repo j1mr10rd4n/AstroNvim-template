@@ -96,6 +96,9 @@ return {
         -- Editing
         ["zZ"] = { "<cmd>ZenMode<cr>", desc = " Zen mode" },
 
+        -- whick-key sub-menu for Visual-Multi Cursors (Multiple Cursors)
+        ["gm"] = { name = "Multiple Cursors" },
+
         -- Git Menu
         -- Menu mappings
         ["<Leader>gh"] = false, -- disable Reset Git Hunk mapping, used for Octo in plugins/github.lua
