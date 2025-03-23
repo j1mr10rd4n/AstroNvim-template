@@ -276,6 +276,9 @@ return {
             ["conjure#client#clojure#nrepl#eval#raw_out"] = false,
             -- test runner "clojure" (clojure.test) "clojurescript" (cljs.test) "kaocha"
             ["conjure#client#clojure#nrepl#test#runner"] = "clojure",
+            -- Minimise very long lines slow down:
+            -- `g:conjure#log#treesitter` false (true by default)
+            ["conjure#log##treesitter"] = false,
           },
         },
       },
