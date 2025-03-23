@@ -9,6 +9,8 @@ return {
     disable_commit_confirmation = true,
     -- disable_builtin_notifications = false,
     use_magit_keybindings = true,
+    disable_signs = true, -- duplicate signs if enabled
+    graph_style = "unicode", -- elegant commit graph
     integrations = {
       diffview = true,
     },
