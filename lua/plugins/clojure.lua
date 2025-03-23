@@ -13,6 +13,20 @@
 -- Language filetypes for plugins
 local lisp_dialects = { "clojure", "fennel" }
 
+local wk = require "which-key"
+wk.add {
+  -- Conjure sub-menus
+  { "<LocalLeader>c", group = "Connect" },
+  { "<LocalLeader>e", group = "Evaluate" },
+  { "<LocalLeader>g", group = "Go" },
+  { "<LocalLeader>l", group = "Log" },
+  { "<LocalLeader>r", group = "Refresh" },
+  { "<LocalLeader>s", group = "Session" },
+  { "<LocalLeader>t", group = "Test" },
+  { "<LocalLeader>v", group = "Values" },
+  { "<LocalLeader>x", group = "Expand" },
+}
+
 ---@type LazySpec
 return {
   -- Ensure Language Server installed
