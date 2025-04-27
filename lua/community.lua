@@ -7,6 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.ruby" },
 
   { import = "astrocommunity.colorscheme.aurora" },
   { import = "astrocommunity.colorscheme.bluloco-nvim" },
