@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.ruby" },
 
-  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+  { import = "astrocommunity.markdown-and-latex.markview-nvim" },
 
   { import = "astrocommunity.colorscheme.aurora" },
   { import = "astrocommunity.colorscheme.bluloco-nvim" },
