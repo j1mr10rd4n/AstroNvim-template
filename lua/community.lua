@@ -13,6 +13,8 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
 
+  { import = "astrocommunity.motion.mini-surround" },
+
   { import = "astrocommunity.colorscheme.aurora" },
   { import = "astrocommunity.colorscheme.bluloco-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
