@@ -17,6 +17,8 @@ return {
 
   { import = "astrocommunity.motion.mini-surround" },
 
+  { import = "astrocommunity.workflow.hardtime-nvim" },
+
   { import = "astrocommunity.colorscheme.aurora" },
   { import = "astrocommunity.colorscheme.bluloco-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
