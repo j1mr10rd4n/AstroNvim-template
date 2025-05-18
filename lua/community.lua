@@ -10,6 +10,8 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.ruby" },
 
+  { import = "astrocommunity.git.blame-nvim" },
+
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
 
