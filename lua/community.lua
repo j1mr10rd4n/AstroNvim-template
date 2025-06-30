@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.pack.ruby" },
 
   { import = "astrocommunity.git.blame-nvim" },
+  { import = "astrocommunity.git.gitlinker-nvim" },
 
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
