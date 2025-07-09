@@ -111,6 +111,7 @@
   "solarized-osaka.nvim": { "branch": "main", "commit": "f796014c14b1910e08d42cc2077fef34f08e0295" },
   "sonokai": { "branch": "master", "commit": "f59c796780655c3b9da442d310ad2f2d735f2e56" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "1f08ed60cafc8f6168b72b80be2b2ea149813e55" },
+  "telescope-live-grep-args.nvim": { "branch": "master", "commit": "b80ec2c70ec4f32571478b501218c8979fab5201" },
   "telescope.nvim": { "branch": "master", "commit": "a17d611a0e111836a1db5295f04945df407c5135" },
   "todo-comments.nvim": { "branch": "main", "commit": "ae0a2afb47cf7395dc400e5dc4e05274bf4fb9e0" },
   "toggleterm.nvim": { "branch": "main", "commit": "50ea089fc548917cc3cc16b46a8211833b9e3c7c" },
