@@ -10,6 +10,8 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.ruby" },
 
+  { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
+
   { import = "astrocommunity.git.blame-nvim" },
   { import = "astrocommunity.git.gitlinker-nvim" },
 
