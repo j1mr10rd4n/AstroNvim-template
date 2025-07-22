@@ -20,6 +20,8 @@ return {
 
   { import = "astrocommunity.motion.mini-surround" },
 
+  { import = "astrocommunity.split-and-window.neominimap-nvim" },
+
   { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
 
   { import = "astrocommunity.workflow.hardtime-nvim" },
