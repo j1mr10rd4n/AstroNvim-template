@@ -6,9 +6,12 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.clojure" },
+  { import = "astrocommunity.pack.eslint" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.ruby" },
+  { import = "astrocommunity.pack.typescript" },
 
   { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
 
