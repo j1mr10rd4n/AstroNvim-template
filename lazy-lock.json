@@ -21,7 +21,7 @@
   },
   "astrocommunity": {
     "branch": "main",
-    "commit": "998e0d0b9d99f27511d8ec353dedc42cd10cf011"
+    "commit": "cc37684904d34b1b9f5098df9fe46e899b11e08c"
   },
   "astrocore": {
     "branch": "main",
@@ -33,7 +33,7 @@
   },
   "astrotheme": {
     "branch": "main",
-    "commit": "4a2af93815e4e6adfe69c836e46047a9451de858"
+    "commit": "cf0e65a7b3ce2f830b052f4da937729eee1e7a7d"
   },
   "astroui": {
     "branch": "main",
@@ -41,7 +41,7 @@
   },
   "aurora": {
     "branch": "master",
-    "commit": "8524a501e42636b8697d6630c6076058ab02de49"
+    "commit": "ac4dda6839e6057d7752dfeb76394f19a5387238"
   },
   "better-escape.nvim": {
     "branch": "master",
@@ -61,11 +61,11 @@
   },
   "bluloco.nvim": {
     "branch": "main",
-    "commit": "bfd8f9184d7f29e88649b4e0262730817eb5d695"
+    "commit": "ca548a50c1c9ccbb3f730c6144a55d48017a07c6"
   },
   "catppuccin": {
     "branch": "main",
-    "commit": "0a5de4da015a175f416d6ef1eda84661623e0500"
+    "commit": "c4d475e4b5684747cde9b3f849186af7837d4397"
   },
   "citruszest.nvim": {
     "branch": "main",
@@ -161,7 +161,7 @@
   },
   "kanagawa-paper.nvim": {
     "branch": "master",
-    "commit": "ccd5f727919bfe93af76561c31f43b53cd2871db"
+    "commit": "5f300de33e11cb61cde225970ddbedac3feff811"
   },
   "kanagawa.nvim": {
     "branch": "master",
@@ -189,7 +189,7 @@
   },
   "markview.nvim": {
     "branch": "main",
-    "commit": "9e852c299351fc2110e763edc7fc899358ee112e"
+    "commit": "02824a95a0db2c9fd1bab3adba4510bc8f9c91e4"
   },
   "mason-lspconfig.nvim": {
     "branch": "main",
@@ -233,7 +233,7 @@
   },
   "mini.base16": {
     "branch": "main",
-    "commit": "852a1ab7700dd5ca56ec94232ea7bc2d6158662a"
+    "commit": "e1e82653c1ece8b7fbe7e17e1d06b5f23139f5e5"
   },
   "mini.icons": {
     "branch": "main",
@@ -241,7 +241,7 @@
   },
   "mini.surround": {
     "branch": "main",
-    "commit": "01dd2620e50ebc0f28f7d4ea2db6f846f1540c95"
+    "commit": "d205d1741d1fcc1f3117b4e839bf00f74ad72fa2"
   },
   "mini.trailspace": {
     "branch": "main",
@@ -261,7 +261,7 @@
   },
   "neo-tree.nvim": {
     "branch": "main",
-    "commit": "f3df514fff2bdd4318127c40470984137f87b62e"
+    "commit": "ba6871d15528e36657d19a3112cc1697c59da19a"
   },
   "neoconf.nvim": {
     "branch": "main",
@@ -269,11 +269,11 @@
   },
   "neofusion.nvim": {
     "branch": "main",
-    "commit": "e705c8dc7ce2f50b813479400cd9a8724425a211"
+    "commit": "c8ef24be527be37254bf8981fa3e6216dee4f8d8"
   },
   "neominimap.nvim": {
     "branch": "main",
-    "commit": "2fa422dd4fb9427c70118e4d2840ad7c5b5722b9"
+    "commit": "6a9d8b0d2f2c0d9d7853b377fa225990cb24837a"
   },
   "neosolarized.nvim": {
     "branch": "main",
@@ -381,7 +381,7 @@
   },
   "nvim-web-devicons": {
     "branch": "master",
-    "commit": "746ffbb17975ebd6c40142362eee1b0249969c5c"
+    "commit": "737cf6c657898d0c697311d79d361288a1343d50"
   },
   "nvim-window-picker": {
     "branch": "main",
@@ -393,7 +393,7 @@
   },
   "onedarkpro.nvim": {
     "branch": "main",
-    "commit": "743bf248cf238a0625f3a204eecefafcf6281a9f"
+    "commit": "05b0d6446a4dcf866edc7ad637a13e4d7e2d5c32"
   },
   "oxocarbon.nvim": {
     "branch": "main",
