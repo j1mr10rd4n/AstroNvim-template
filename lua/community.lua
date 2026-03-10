@@ -7,6 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.eslint" },
+  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.prettier" },

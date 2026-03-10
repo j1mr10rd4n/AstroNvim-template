@@ -327,6 +327,10 @@
     "branch": "main",
     "commit": "e2cb22089cc2358b2b995c09578224f142de6039"
   },
+  "nvim-jdtls": {
+    "branch": "master",
+    "commit": "77ccaeb422f8c81b647605da5ddb4a7f725cda90"
+  },
   "nvim-juliana": {
     "branch": "master",
     "commit": "881d1a85d33f744b6b851a210becb3194da8e2a6"
