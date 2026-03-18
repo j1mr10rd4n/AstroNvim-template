@@ -17,6 +17,7 @@ return {
   { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
 
   { import = "astrocommunity.git.blame-nvim" },
+  { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.git.gitlinker-nvim" },
 
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
