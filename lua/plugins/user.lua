@@ -447,4 +447,17 @@ return {
   --   ]]
   --   end,
   -- },
+  {
+    "https://git.sr.ht/~swaits/scratch.nvim",
+    lazy = true,
+    keys = {
+      { "<leader>bz", "<cmd>Scratch<cr>", desc = "Scratch Buffer", mode = "n" },
+      { "<leader>bZ", "<cmd>ScratchSplit<cr>", desc = "Scratch Buffer (split)", mode = "n" },
+    },
+    cmd = {
+      "Scratch",
+      "ScratchSplit",
+    },
+    opts = {},
+  },
 }

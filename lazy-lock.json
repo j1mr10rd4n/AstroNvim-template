@@ -107,6 +107,7 @@
   "poimandres.nvim": { "branch": "main", "commit": "a488957d803943a4201ac3b774913fcafa9e6b3a" },
   "resession.nvim": { "branch": "master", "commit": "cc819b0489938d03e4f3532a583354f0287c015b" },
   "rose-pine": { "branch": "main", "commit": "6a961effd67f6130d36df6d1c05c48c739796dd2" },
+  "scratch.nvim": { "branch": "main", "commit": "6230634669d29bf05ab4e85b3c7df8fd8402dcb4" },
   "smart-splits.nvim": { "branch": "master", "commit": "ddb23c1a1cf1507bda487cda7f6e4690965ef9f5" },
   "snacks.nvim": { "branch": "main", "commit": "e6fd58c82f2f3fcddd3fe81703d47d6d48fc7b9f" },
   "solarized-osaka.nvim": { "branch": "main", "commit": "a261ee90fb3e5e82660567e4874d384e996afa4f" },
