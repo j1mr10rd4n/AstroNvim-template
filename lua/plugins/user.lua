@@ -1,19 +1,28 @@
 ---@type LazySpec
 return {
-  "Olical/conjure",
-  init = function()
-    local runners = require "conjure.client.clojure.nrepl.action"
-    runners["test-runners"].lazytest = {
-      ["namespace"] = "lazytest.repl",
-      ["all-fn"] = "run-all-tests",
-      ["ns-fn"] = "run-tests",
-      ["single-fn"] = "run-test-var",
-      ["default-call-suffix"] = "",
-      ["name-prefix"] = "#'",
-      ["name-suffix"] = "",
-    }
-    vim.g["conjure#client#clojure#nrepl#test#runner"] = "lazytest"
-  end,
+  {
+    "Olical/conjure",
+    lazy = true,
+    init = function()
+      -- Set configuration options here
+      -- Uncomment this to get verbose logging to help diagnose internal Conjure issues
+      -- This is VERY helpful when reporting an issue with the project
+      -- vim.g["conjure#debug"] = true
+
+      local runners = require "conjure.client.clojure.nrepl.action"
+      runners["test-runners"].lazytest = {
+        ["namespace"] = "lazytest.repl",
+        ["all-fn"] = "run-all-tests",
+        ["ns-fn"] = "run-tests",
+        ["single-fn"] = "run-test-var",
+        ["default-call-suffix"] = "",
+        ["name-prefix"] = "#'",
+        ["name-suffix"] = "",
+      }
+      vim.g["conjure#client#clojure#nrepl#test#runner"] = "lazytest"
+      vim.g["conjure#client#clojure#nrepl#test#current_form_names"] = { "describe" }
+    end,
+  },
 
   {
     "folke/snacks.nvim",
