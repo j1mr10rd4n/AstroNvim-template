@@ -21,7 +21,6 @@ return {
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.git.gitlinker-nvim" },
 
-  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
 
   { import = "astrocommunity.motion.mini-surround" },
